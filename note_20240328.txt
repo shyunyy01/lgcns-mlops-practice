@@ -1,1 +1,8 @@
 source .venv/bin/activate ## 가상 환경 접근
+
+sudo apt-get install -y cron ## cron 설치
+
+sudo service cron status
+sudo service cron start
+
+bentoml serve service.py:svc ## 서비스 띄우기
