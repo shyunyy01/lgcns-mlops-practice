@@ -1,0 +1,1 @@
+source .venv/bin/activate ## 가상 환경 접근
